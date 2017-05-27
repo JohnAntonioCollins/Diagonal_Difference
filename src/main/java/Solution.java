@@ -17,9 +17,8 @@ public class Solution {
         */
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        int matrixLength = n*n;
-        int[] matrix = new int[matrixLength];
-        for (int i = 0; i < matrixLength; i++)
+        int[] matrix = new int[n*n];
+        for (int i = 0; i < n*n; i++)
         {
             matrix[i] = scan.nextInt();
         }
